@@ -37,6 +37,30 @@ export default {
     msg: String
   }
 }
+
+// const HOST = "";
+
+// export default {
+//   methods: {
+//     postData() {
+//       let saveData = {};
+//       saveData.email = "test1@gmail.com";
+
+//       this.$axios
+//         .post(HOST + "/users/logout", JSON.stringify(saveData))
+//         .then((res) => {
+//           console.log(res.staus);
+//           console.log(res.data);
+//         })
+//         .catch((error) => {
+//           console.log(error);
+//         })
+//         .finally(() => {
+//           console.log("항상 마지막에 실행");
+//         });
+//     },
+//   },
+// };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
